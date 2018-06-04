@@ -44,6 +44,8 @@ lang: fi-FI
 header-title: Sovellukset pilveen <strong>helposti</strong>
 # Header Tagline
 headter-tagline: Cloudplatform Jelastic
+# Blog post permalinks
+permalink: /:title
 
 ####################################
 ######   CTA Header Buttons   ######
