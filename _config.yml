@@ -18,7 +18,8 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
 baseurl:
 
 # the base hostname & protocol for your site
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
+url: "https://cloudplatformfi.github.io/"
 
 ####################################
 ######   Optional Features    ######
@@ -36,7 +37,7 @@ smooth-scroll: false
 #######################################################
 
 # This is your site title
-title: Cloudplatform Jelastic
+title: Cloudplatform Jelastic Platform as a Service
 # Website language
 lang: fi-FI
 # Header Title
