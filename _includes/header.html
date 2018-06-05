@@ -4,7 +4,7 @@
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
     <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="Cloudplatform" />
+      <img src="/images/header-image.jpg" alt="Cloudplatform" />
     </div>
   </div>
 
@@ -15,7 +15,7 @@
 
       <!-- Logo -->
       <div class="col-sm-2 col-xs-4 logo child-center-v">
-        <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/images/logo.png" alt="Cloudplatform"></a>
+        <a href="/"><img src="/images/logo.png" alt="Cloudplatform"></a>
       </div>
 
       <!-- Toggle Mobile Menu -->
@@ -34,15 +34,29 @@
         <!-- Navigation Menu -->
         <nav id="navMenu" class="nav-menu">
           <ul class="menu">
-            <li class="current-menu-item"><a href="#home">Home</a></li>
+{% if (page.lang | default: site.lang) == "en-GB" %}
             <li><a href="#about">About</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#parallax-features">Parallax</a></li>
             <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
             <li><a href="#team">Team</a></li>
             <li><a href="#prices">Prices</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="https://support.cloudplatform.fi/en/new-ticket" target="_blank">Support</a></li>
+{% else %}
+            <li><a href="#jelastic">Jelastic</a></li>
+            <li><a href="#edut">Edut</a></li>
+            <li><a href="#alustat">Alustat</a></li>
+            <li><a href="#ominaisuudet">Ominaisuudet</a></li>
+            <li><a href="#asiakkaat">Asiakkaat</a></li>
+            <li><a href="/blogi">Blogi</a></li>
+            <li><a href="#tiimi">Tiimi</a></li>
+            <li><a href="#hinnat">Hinnat</a></li>
+            <li><a href="#yhteys">Yhteys</a></li>
+            <li><a href="https://support.cloudplatform.fi/fi/new-ticket" target="_blank">Tuki</a></li>
+{% endif %}
           </ul>
         </nav>
 

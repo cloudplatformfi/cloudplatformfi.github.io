@@ -4,18 +4,7 @@
 #
 
 # Information for compile
-exclude: ["node_modules", "gulpfile.js", "package.json", "Gemfile", "README.md"]
-
-#
-# If your website is placed in a separate folder on your server please modify
-# this with your folder name, by default is empty.
-# Example: Sera Demo is hosted on projects.gleesik.ro/sera-onepage
-# If I compile Sera Template and I put in /sera-onepage without modifing baseurl
-# than scripts can't be loaded corectly.
-# For this example my site url is: projects.gleesik.ro (This can be just www.example.com)
-# My folder for Demo Website is: /sera-onepage so baseurl: /sera-onepage
-#
-baseurl:
+exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "Gemfile", "README.md"]
 
 # the base hostname & protocol for your site
 # url: "http://localhost:4000"
@@ -56,13 +45,13 @@ permalink: :slug/
 
 # Focus Buttons
 header-focus-button:
-  title: Download Now
-  url: https://themeforest.net/collections/6069390-sera
+  title: Ota Käyttöön
+  url: https://app.fi.cloudplatform.fi/?lang=fi&signup=true
 
 # Secondary Buttons
 header-secondary-button:
-  title: Discover More
-  url: http://themeforest.net/user/gleesik
+  title: Lue Lisää
+  url: /#features
 
 #
 # This is your email adress, contact from send here all emails from contact section
@@ -73,7 +62,7 @@ email: jelastic@cloudplatform.fi
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
+banner-link: https://app.fi.cloudplatform.fi/?lang=fi&signup=true
 
 ####################################
 ######  Global Social Links   ######
@@ -94,9 +83,9 @@ vimeo: '#'
 #
 about-widget:
   author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies.
+  author-name: Lupu Pitkänen
+  author-tagline: PaaS-arkkitehti
+  author-info: Lupulla on 20 vuoden kokemus websovellusten ylläpidosta ja alustoista.
   author-social-links:
     youtube: '#'
     pinterest: '#'
@@ -107,7 +96,7 @@ about-widget:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyDVQ7-TG4AAPGN_uRhbkolhnrokRaN4bPA
-map-text: Cloudplatform Google Map
+map-text: Cloudplatform / Planeetta
 map-text-location: Helsinki, Finland
 map-lat: 60.2043741
 map-lng: 24.899685099999942
@@ -164,9 +153,8 @@ features:
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
-
+portfolio-title: Alustat
+portfolio-description: Jelasticin tukemat valmiit PaaS-sovellusalustat sekä esimerkkejä sovelluksista jotka on helppo ottaa siellä käyttöön
 #
 # Portfolio Grid
 #
@@ -231,7 +219,7 @@ portfolio:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Features
+core-title: Jelastic ominaisuudet
 core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
@@ -304,30 +292,6 @@ testimonials:
   cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
   logo-img: themeforest.png
 
-# Client
-- name: Adam Smith
-  url: http://codecanyon.net
-  url-text: CodeCanyon.net
-  avatar: avatar-02.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
-
-# Client
-- name: Irene Warner
-  url: http://videohive.net
-  url-text: VideoHive.net
-  avatar: avatar-03.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
-
-# Client
-- name: Richard Ryan
-  url: http://audiojungle.net
-  url-text: AudioJungle.net
-  avatar: avatar-04.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
-
 
 #####################################
 ############# Our Blog ##############
@@ -339,8 +303,8 @@ blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: Cloudplatform tiimi
+team-description: Tiimillämme on pitkä kokemus websovelluksista, sivustoista ja eri sovellusalustoista. Autamme mielellämme saamaan sovelluksenne sujuvasti pilveen!
 
 #
 # Team Members
@@ -348,106 +312,75 @@ team-description: Nulla a tellus at turpis gravida congue non interdum et malesu
 team:
 
 # Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+- name: Ville
+  tagline: Sovellusasiantuntija
+  avatar: ville.jpg
 
 # Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+- name: Kim
+  tagline: Sovellusasiantuntija
+  avatar: kim.jpg
 
 # Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
-
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
+- name: Jouni
+  tagline: Sovellusasiantuntija
+  avatar: jouni.jpg
 
 # Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
+- name: Lupu
+  tagline: Järjestelmäasiantuntija
+  avatar: lupu.jpg
 
-  # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
 
 
 #####################################
 ########## Pricing Tables ###########
 #####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+pricing-title: Hinnoittelu käytön mukaan
+pricing-description: Cloudplatform Jelastic hinnoittelun tärkein yksikkö on Cloudlet, joka sisältää 128 Mt muistia (RAM) ja 400 MHz prosessoritehoa (CPU). Hinnoittelu skaalautuu automaattisesti - maksat vain siitä sovelluksen todellisen tehon kulutuksen mukaan. Voit määritellä ympäristöllesi Cloudletien enimmäismäärän, jolloin varmistat katon kustannuksille. Toisaalta saat reilun alennuksen jos sitoudut tiettyyn Cloudletien määrään.
 
 #
 # Plan Personal
 #
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
+plan-personal-price: "0,07"
+plan-personal-offer-1-title: SSD-suorituskykyä
+plan-personal-offer-1-info: Palvelinympäristöjen käytössä on erittäin suorituskykyinen tallennus SSD-levyille
+plan-personal-offer-2-title: Tiedot turvassa
+plan-personal-offer-2-info: Kaikki data sijaitsee kotimaassa, se on AES-256 salakirjoitettu levyllä ja varmuuskopiointi sisältyy hintaan
+plan-personal-url: '/hinnat'
 
 #
 # Plan Business
 #
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
+plan-business-price: "6,21"
+plan-business-offer-1-title: Suoritintehoa
+plan-business-offer-1-info: Yksi cloudlet = 400 MHz suoritintehoa modernista Intel Xeon E5-2683 v4 CPU:sta
+plan-business-offer-2-title: Muistia joustavasti
+plan-business-offer-2-info: Yksi cloudlet = 128 Mt muistia, laskutetaan sovelluksen todellisen käytön mukaan tunti kerrallaan
+plan-business-url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 #
 # Plan Ultimate
 #
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
+plan-ultimate-price: "3,56"
+plan-ultimate-offer-1-title: Julkinen IPv4-osoite 
+plan-ultimate-offer-1-info: Julkinen IPv4-osoite jonka takana on nelinkertaisesti varmistetut runkoverkkoyhteydet (Level3, Cogent, Telia ja FNE)
+plan-ultimate-offer-2-title: Varmistetut yhteydet
+plan-ultimate-offer-2-info: Yhteydet internetiin jonka takana on nelinkertaisesti varmistetut runkoverkkoyhteydet (Level3, Cogent, Telia ja FNE) 
+plan-ultimate-url: '/hinnat'
 
 
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Ota yhteyttä
+contact-description: Tarvitsetko vielä lisätietoja tai haluatko keskustella mikä olisi paras ratkaisu tarpeeseenne? Jätä meille viesti tai soittopyyntö niin jutellaan!
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
-footer-copyright-text: Cloudplatform&trade;
-footer-copyright-url: https://www.cloudplatform.fi/
+footer-description: Cloudplatform on osa Planeettaa. Vuonna 2002 perustettu Planeetta on Suomen suurin itsenäinen webhostingia tarjoava yritys. Sillä on kymmeniä tuhansia asiakkaita ja verkkotunnuksia ylläpidossaan.
+footer-copyright-text: Planeetta Internet Oy
+footer-copyright-url: https://www.planeetta.fi/
 footer-copyright-year: 2018

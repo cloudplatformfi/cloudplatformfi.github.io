@@ -1,0 +1,44 @@
+<!-- Team Section -->
+<section class="site-section team-section section-focus" id="tiimi">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.team-title }}</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>{{ site.team-description }}</p>
+      </div>
+
+    </div>
+
+    <!-- Team Members -->
+    <div class="row team-members-container">
+
+      {% for member in site.team %}
+
+      <!-- Member -->
+      <div class="col-md-3 col-md-push-0 col-sm-6 col-sm-push-0 col-xs-6 col-xs-push-0">
+        <div class="team-member">
+          <div class="img-wrapper">
+            <img src="/images/avatars/{{ member.avatar }}" alt="Avatar Team Member" />
+          </div>
+          <div class="team-member-content">
+            <h3 class="name">{{ member.name }}</h3>
+            <h4 class="tagline">{{ member.tagline }}</h4>
+          </div>
+        </div>
+      </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</section>

@@ -9,7 +9,7 @@ layout: page
     <!-- Article Header -->
     <header class="article-header">
       <div class="img-wrap">
-        <img src="{{ site.baseurl }}/images/blog/{{ page.image }}" alt="Article Blog Image">
+        <img src="/images/blog/{{ page.image }}" alt="Article Blog Image">
       </div>
       <div class="article-title">
         <h3 class="title">{{ page.title }}</h3>
@@ -32,11 +32,11 @@ layout: page
           {% assign tags_list = page.tags %}
             {% if tags_list.first[0] == null %}
               {% for tag in tags_list %}
-                <li><a href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag }}</a></li>
+                <li><a href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
               {% endfor %}
             {% else %}
               {% for tag in tags_list %}
-                <li><a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
+                <li><a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
               {% endfor %}
             {% endif %}
           {% assign tags_list = nil %}
@@ -49,25 +49,25 @@ layout: page
         <div class="social-icons box-content">
           <ul class="icons global-text-color-icons">
             <li>
-              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}" 
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" 
               onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
                 <i class="fi flaticon-facebook"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/home?status={{ site.url }}{{ site.baseurl }}{{ page.url }}" 
+              <a href="https://twitter.com/home?status={{ site.url }}{{ page.url }}" 
               onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
                 <i class="fi flaticon-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" 
+              <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" 
               onclick="window.open(this.href, 'facebook-share', 'width=280,height=480');return false;">
                 <i class="fi flaticon-google-plus"></i>
               </a>
             </li>
             <li>
-              <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}" 
+              <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}" 
               onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
                 <i class="fi flaticon-pinterest"></i>
               </a>
