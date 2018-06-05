@@ -27,13 +27,13 @@ smooth-scroll: false
 #######################################################
 
 # This is your site title
-title: Cloudplatform Jelastic
+title: Cloudplatform pilvipalvelu
 # Website language
 lang: fi-FI
 # Header Title
-header-title: Sovellukset pilveen <strong>helposti</strong>
+header-title: Sovellukset <strong>helposti</strong> pilveen
 # Header Tagline
-headter-tagline: Cloudplatform Jelastic
+headter-tagline: Cloudplatform
 # Permalinks
 # permalink: /:title:output_ext
 # permalink: pretty
@@ -51,7 +51,7 @@ header-focus-button:
 # Secondary Buttons
 header-secondary-button:
   title: Lue Lisää
-  url: /#features
+  url: /#edut
 
 #
 # This is your email adress, contact from send here all emails from contact section
@@ -119,15 +119,15 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: Mikä Cloudplatform?
+about-description: Cloudplatform on kotimainen Platform-as-a-Service -pilvipalvelu. Sen avulla siirrät sovelluksesi helposti pilveen ilman koodimuutoksia, käyttäen tuttuja työkaluja ja ilman turruttavaa API-dokumentaation kahlaamista. Cloudplatformin moottorina toimii palkittu <a href="https://jelastic.com/" target="_blank">Jelastic</a>-pilvialusta.
 
 
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+features-title: Miksi Cloudplatform?
+features-description: Koska se on ylivoimaisesti helpoin tapa saada sovellukset tuotantoon!
 
 #
 # Features
@@ -135,18 +135,18 @@ features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 features:
 
 # Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
+- title: Helppo deployment
+  description: Node.js, PHP, Java, Ruby, Go tai Python sovelluksesi pilveen ilman koodimuutoksia haluamallasi työkalulla - Docker, GIT, SVN tai zip-paketti ja Maven, Ant, Eclipse, NetBeans tai IntelliJ IDEA -plugin.
+  icon: pe-7s-next-2
 
 # Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-help2
+- title: Helppo skaalaus
+  description: Vertikaalinen skaalautuminen reaaliaikaisesti ja horisontaalinen skaalautuminen automaattisesti - maksat kapasiteetista vain todellisen käytön mukaan.
+  icon: pe-7s-rocket
 
 # Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Helppo hallinta
+  description: Helppo web-käyttöliittymä - sovellusten deployment, palvelinympäristöjen orkestrointi, konfiguraatiot, lokitiedostot, palomuuraus, tilastot, SSH-yhteydet, jne.
   icon: pe-7s-airplay
 
 
@@ -219,7 +219,7 @@ portfolio:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Jelastic ominaisuudet
+core-title: Ominaisuudet
 core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
