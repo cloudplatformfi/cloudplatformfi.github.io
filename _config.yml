@@ -276,8 +276,8 @@ core-features-right:
 #####################################
 ########### Testimonials ############
 #####################################
-testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+testimonials-title: Asiakkaitamme
+testimonials-description: Vuonna 2012 lanseerattu Cloudplatform on palvellut jo tuhansia suomalaisia yrityksiä ja projekteja laidasta laitaan. Asiakkainamme on niin pieniä digitoimistoja kuin skaalautuvia alustoja tarvitsevia ohjelmistoyrityksiä. Helppous kehittäjille on kuitenkin palvelumme suosion tärkein syy. Tervetuloa mukaan!
 
 #
 # Testimonials
@@ -285,19 +285,19 @@ testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames a
 testimonials:
 
 # Client
-- name: Johnatan Doe
-  url: http://themeforest.net
-  url-text: ThemeForest.net
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
+- name: Jari Järvinen
+  url: https://www.foredata.fi/
+  url-text: www.foredata.fi
+  avatar: foredata_jari.jpg
+  cite: Cloudplatformista saamme joustavasti palvelinkapasiteettia käyttöön tarpeen mukaan. Arvostamme kotimaisen palvelun lisäksi erityisesti reaaliaikaista skaalautumista, missä maksamme kapasiteetista vain todellisen käytön mukaan.
+  logo-img: foredata.png
 
 
 #####################################
 ############# Our Blog ##############
 #####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+blog-title: Blogi
+blog-description: Cloudplatformin blogi on avattu! Kirjoitamme ajankohtaisista aiheista pilvialustoihin liittyen sekä käymme läpi palvelumme eri ominaisuuksia ja hyödyllisiä vinkkejä.
 
 
 #####################################
@@ -362,10 +362,10 @@ plan-business-url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 # Plan Ultimate
 #
 plan-ultimate-price: "3,56"
-plan-ultimate-offer-1-title: Julkinen IPv4-osoite 
-plan-ultimate-offer-1-info: Julkinen IPv4-osoite jonka takana on nelinkertaisesti varmistetut runkoverkkoyhteydet (Level3, Cogent, Telia ja FNE)
+plan-ultimate-offer-1-title: Julkinen IP-osoite 
+plan-ultimate-offer-1-info: Julkiset kiinteät ja muuttumattomat IPv4-osoitteet verkkopalvelullesi edullisesti.
 plan-ultimate-offer-2-title: Varmistetut yhteydet
-plan-ultimate-offer-2-info: Yhteydet internetiin jonka takana on nelinkertaisesti varmistetut runkoverkkoyhteydet (Level3, Cogent, Telia ja FNE) 
+plan-ultimate-offer-2-info: Yhteydet internetiin moninkertaisesti varmistettuna usealta eri operaattorilta (Level3, Cogent, Telia ja FNE) 
 plan-ultimate-url: '/hinnat'
 
 
