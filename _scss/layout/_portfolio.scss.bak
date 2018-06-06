@@ -73,7 +73,6 @@ section.portfolio-section {
       // Item Image
       .img-wrap {
         position: relative;
-        background-color: $light-blue;
 
         img {
           width: 100%;

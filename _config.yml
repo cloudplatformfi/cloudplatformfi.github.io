@@ -82,10 +82,10 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: avatar-02.jpg
+  author-avatar: lupu.jpg
   author-name: Lupu Pitkänen
-  author-tagline: PaaS-arkkitehti
-  author-info: Lupulla on 20 vuoden kokemus websovellusten ylläpidosta ja alustoista.
+  author-tagline: Pilviarkkitehti
+  author-info: Lupulla on 20 vuoden kokemus websovellusalustoista.
   author-social-links:
     youtube: '#'
     pinterest: '#'
@@ -153,74 +153,156 @@ features:
 #####################################
 ############  Portfolio  ############
 #####################################
-portfolio-title: Alustat
-portfolio-description: Jelasticin tukemat valmiit PaaS-sovellusalustat sekä esimerkkejä sovelluksista jotka on helppo ottaa siellä käyttöön
+portfolio-title: Alustat ja ohjelmointikielet
+portfolio-description: Cloudplatform on käyttövalmis PaaS-pilvipalvelu suosituimmille ohjelmointikielille, sovellusalustoille ja tietokannoille. Koodaa ja julkaise!
 #
 # Portfolio Grid
 #
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
+portfolio-categories: [Ohjelmointikieli, Sovellusalusta, Tietokanta]
 portfolio:
 
 # Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: '#'
+- title: Java
+  categories: [Ohjelmointikieli]
+  image: java.png
+  url: 'https://www.java.com/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
-  url: '#'
+- title: PHP
+  categories: [Ohjelmointikieli]
+  image: php.png
+  url: 'http://php.net/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
-  url: '#'
+- title: Docker
+  categories: [Sovellusalusta]
+  image: docker.png
+  url: 'https://www.docker.com/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
+- title: Node.js
+  categories: [Ohjelmointikieli, Sovellusalusta]
+  image: nodejs.png
+  url: 'https://nodejs.org/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
+- title: Ruby
+  categories: [Ohjelmointikieli]
+  image: ruby.png
+  url: 'https://www.ruby-lang.org/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
+- title: Python
+  categories: [Ohjelmointikieli]
+  image: python.png
+  url: 'https://www.python.org/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
+- title: Go
+  categories: [Ohjelmointikieli]
+  image: golang.png
+  url: 'https://golang.org/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
+- title: Tomcat
+  categories: [Sovellusalusta]
+  image: tomcat.png
+  url: 'http://tomcat.apache.org/'
 
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
+- title: TomEE
+  categories: [Sovellusalusta]
+  image: tomee.png
+  url: 'http://tomee.apache.org/'
+
+- title: GlassFish
+  categories: [Sovellusalusta]
+  image: glassfish.png
+  url: 'https://javaee.github.io/glassfish/'
+
+- title: Jetty
+  categories: [Sovellusalusta]
+  image: jetty.png
+  url: 'https://www.eclipse.org/jetty/'
+
+- title: Apache
+  categories: [Sovellusalusta]
+  image: apache.png
+  url: 'https://httpd.apache.org/'
+
+- title: NGINX
+  categories: [Sovellusalusta]
+  image: nginx.png
+  url: 'https://nginx.org/'
+
+- title: JBoss
+  categories: [Sovellusalusta]
+  image: jboss.png
+  url: 'http://www.jboss.org/'
+
+- title: WildFly
+  categories: [Sovellusalusta]
+  image: wildfly.png
+  url: 'http://wildfly.org/'
+
+- title: WebLogic Server
+  categories: [Sovellusalusta]
+  image: weblogic.png
+  url: 'http://www.oracle.com/technetwork/middleware/weblogic/overview/index.html'
+
+- title: MariaDB
+  categories: [Tietokanta]
+  image: mariadb.png
+  url: 'https://mariadb.org/'
+
+- title: MySQL
+  categories: [Tietokanta]
+  image: mysql.png
+  url: 'https://www.mysql.com/'
+
+- title: MongoDB
+  categories: [Tietokanta]
+  image: mongodb.png
+  url: 'https://www.mongodb.com/'
+
+- title: PostgreSQL
+  categories: [Tietokanta]
+  image: postgresql.png
+  url: 'https://www.postgresql.org/'
+
+- title: CouchDB
+  categories: [Tietokanta]
+  image: couchdb.png
+  url: 'http://couchdb.apache.org/'
+
+- title: Cassandra
+  categories: [Tietokanta]
+  image: cassandra.png
+  url: 'http://cassandra.apache.org/'
+
+- title: OrientDB
+  categories: [Tietokanta]
+  image: orientdb.png
+  url: 'https://orientdb.com/'
+
+- title: Redis
+  categories: [Tietokanta]
+  image: redis.png
+  url: 'https://redis.io/'
+
+- title: Neo4j
+  categories: [Tietokanta]
+  image: neo4j.png
+  url: 'https://neo4j.com/'
+
+- title: Oracle DB
+  categories: [Tietokanta]
+  image: oracle.png
+  url: 'https://www.oracle.com/database/index.html'
+
+- title: PerconaDB
+  categories: [Tietokanta]
+  image: percona.png
+  url: 'https://www.percona.com/'
 
 
 #####################################
 ##########  Core Features  ##########
 #####################################
 core-title: Ominaisuudet
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-description: Palveluumme on lisätty vuosien varrella lukemattomia kehittäjien tarvitsemia ja toivomia ominaisuuksia. Tässä muutamia niistä. Tietoturvaa, käytettävyyttä, skaalautuvuutta ja kehittämisen helppoutta - kehitämme palvelua jatkuvasti!
 
 #
 # Core Features Left
@@ -228,24 +310,54 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Skaalautuminen
+  description: Automaattinen vertikaalinen ja horisontaalinen skaalaus
   icon: pe-7s-light
 
 # Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Suoritusteho
+  description: Moderni ja tehokas palvelinalusta (Intel Xeon E5-2683 v4 CPU)
+  icon: pe-7s-light
+
+# Feature
+- name: Legacy + mikropalvelut
+  description: Legacy-projektit ja uudet mikropalvelut samalle alustalle 
   icon: pe-7s-drop
 
 # Feature
-- name: Clean Coding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: SSL ja HTTPS
+  description: Ilmaiset tai omat SSL-sertifikaatit helposti käyttöön
   icon: pe-7s-coffee
 
 # Feature
-- name: Friendly
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Kuormantasaus
+  description: HTTP(S) ja TCP-kuormantasaus valmiina
   icon: pe-7s-smile
+
+# Feature
+- name: Data kotimaassa
+  description: Kaikki data sijaitsee Digitan konesalissa Helsingin Pasilassa
+  icon: pe-7s-smile
+
+# Feature
+- name: Puhumme suomea
+  description: Kotimainen pilvipalvelu ja suomenkielinen asiakaspalvelu
+  icon: pe-7s-smile
+
+# Feature
+- name: Helpot maksutavat
+  description: Osta krediittejä verkkopankkitunnuksilla tai luottokortilla
+  icon: pe-7s-smile
+
+# Feature
+- name: Laskutus
+  description: Suomalainen lasku käytön mukaan kerran kuussa (<a href="#yhteys">pyydä erikseen</a>)
+  icon: pe-7s-smile
+
+# Feature
+- name: GDPR-valmis
+  description: EU:n tietosuoja-asetuksen mukainen alusta sovelluksille
+  icon: pe-7s-camera
 
 #
 # Core Features Right
@@ -253,25 +365,49 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Vikasietoisuus
+  description: Automaatinen palautuminen palvelinlaitteen vikaantuessa
   icon: pe-7s-wine
 
 # Feature
-- name: Web Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: SSD-levy
+  description: Erittäin suorituskykyinen IO-teho SSD-levyillä
+  icon: pe-7s-wine
+
+# Feature
+- name: Klusterointi
+  description: Sovellusten klusterointi helposti hallintapaneelista
+  icon: pe-7s-wine
+
+# Feature
+- name: Tiedostot
+  description: Lokitiedot ja asetustiedostot helposta hallintapaneelista
+  icon: pe-7s-wine
+
+# Feature
+- name: AES-256 salaus
+  description: Kaikki data on salakirjoitettu levyllä (AES-256)
+  icon: pe-7s-wine
+
+# Feature
+- name: Oikeudet
+  description: Jaa ja määrittele oikeuksia ympäristöihin eri käyttäjille
   icon: pe-7s-monitor
 
 # Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Elinkaari
+  description: Jäädytä, sammuta ja käynnistä sovelluksia uudelleen
   icon: pe-7s-crop
 
 # Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: DevOps
+  description: Helppo alku DevOps-prosesseihin
   icon: pe-7s-camera
 
+# Feature
+- name: Valvonta
+  description: Hälytykset ympäristöjen kuormituksesta (RAM, CPU, verkko, IO)
+  icon: pe-7s-camera
 
 #####################################
 ########### Testimonials ############
@@ -336,7 +472,7 @@ team:
 ########## Pricing Tables ###########
 #####################################
 pricing-title: Hinnoittelu käytön mukaan
-pricing-description: Cloudplatform Jelastic hinnoittelun tärkein yksikkö on Cloudlet, joka sisältää 128 Mt muistia (RAM) ja 400 MHz prosessoritehoa (CPU). Hinnoittelu skaalautuu automaattisesti - maksat vain siitä sovelluksen todellisen tehon kulutuksen mukaan. Voit määritellä ympäristöllesi Cloudletien enimmäismäärän, jolloin varmistat katon kustannuksille. Toisaalta saat reilun alennuksen jos sitoudut tiettyyn Cloudletien määrään.
+pricing-description: Cloudplatformin hinnoittelun tärkein yksikkö on Cloudlet, joka sisältää 128 Mt muistia (RAM) ja 400 MHz prosessoritehoa (CPU). Hinnoittelu skaalautuu automaattisesti - maksat vain siitä sovelluksen todellisen tehon kulutuksen mukaan. Voit määritellä ympäristöllesi Cloudletien enimmäismäärän, jolloin varmistat katon kustannuksille. Toisaalta saat reilun alennuksen jos sitoudut tiettyyn Cloudletien määrään.
 
 #
 # Plan Personal

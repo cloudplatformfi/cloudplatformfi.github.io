@@ -4011,6 +4011,7 @@ section.portfolio-section .portfolio-grid .item {
 
 section.portfolio-section .portfolio-grid .item .img-wrap {
   position: relative;
+  background-color: #E7F2F6;
 }
 
 section.portfolio-section .portfolio-grid .item .img-wrap img {
