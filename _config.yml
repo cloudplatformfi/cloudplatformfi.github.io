@@ -311,57 +311,57 @@ core-features-left:
 # Feature
 - name: Skaalautuminen
   description: Automaattinen vertikaalinen ja horisontaalinen skaalaus
-  icon: pe-7s-light
+  icon: pe-7s-plane
 
 # Feature
 - name: Suoritusteho
   description: Moderni ja tehokas palvelinalusta (Intel Xeon E5-2683 v4 CPU)
-  icon: pe-7s-light
+  icon: pe-7s-bicycle
 
 # Feature
 - name: Legacy + mikropalvelut
   description: Legacy-projektit ja uudet mikropalvelut samalle alustalle 
-  icon: pe-7s-drop
+  icon: pe-7s-cloud-upload
 
 # Feature
 - name: SSL ja HTTPS
   description: Ilmaiset tai omat SSL-sertifikaatit helposti käyttöön
-  icon: pe-7s-coffee
+  icon: pe-7s-medal
 
 # Feature
 - name: Kuormantasaus
   description: HTTP(S) ja TCP-kuormantasaus heti käyttövalmiina
-  icon: pe-7s-smile
+  icon: pe-7s-shuffle
 
 # Feature
 - name: Myös IaaS-kapasiteetti
   description: Virtuaalipalvelimet root-oikeuksilla (CentOS tai Ubuntu)
-  icon: pe-7s-smile
+  icon: pe-7s-server
 
 # Feature
 - name: Data kotimaassa
   description: Kaikki data sijaitsee Digitan konesalissa Helsingin Pasilassa
-  icon: pe-7s-smile
+  icon: pe-7s-check
 
 # Feature
 - name: Puhumme suomea
   description: Kotimainen pilvipalvelu ja suomenkielinen asiakaspalvelu
-  icon: pe-7s-smile
+  icon: pe-7s-chat
 
 # Feature
 - name: Helpot maksutavat
   description: Verkkopankkitunnuksilla tai luottokortilla krediittejä
-  icon: pe-7s-smile
+  icon: pe-7s-calculator
 
 # Feature
 - name: Laskutus
   description: Suomalainen lasku käytön mukaan kerran kuussa (<a href="#yhteys">pyydä erikseen</a>)
-  icon: pe-7s-smile
+  icon: pe-7s-note2
 
 # Feature
 - name: GDPR-valmis
   description: EU:n tietosuoja-asetuksen mukainen alusta sovelluksille
-  icon: pe-7s-camera
+  icon: pe-7s-ribbon
 
 #
 # Core Features Right
@@ -371,57 +371,57 @@ core-features-right:
 # Feature
 - name: PaaS ja Docker
   description: Valmiit PaaS-alustat tai omat Docker-imaget
-  icon: pe-7s-wine
+  icon: pe-7s-cloud
 
 # Feature
 - name: Vikasietoisuus
   description: Automaatinen palautuminen palvelinlaitteen vikaantuessa
-  icon: pe-7s-wine
+  icon: pe-7s-tools
 
 # Feature
 - name: SSD-levy
   description: Erittäin suorituskykyinen IO-teho SSD-levyillä
-  icon: pe-7s-wine
+  icon: pe-7s-diskette
 
 # Feature
 - name: Klusterointi
   description: Sovellusten klusterointi helposti hallintapaneelista
-  icon: pe-7s-wine
+  icon: pe-7s-network
 
 # Feature
 - name: Tiedostot
   description: Lokitiedot ja asetustiedostot helposta hallintapaneelista
-  icon: pe-7s-wine
+  icon: pe-7s-config
 
 # Feature
 - name: AES-256 salaus
   description: Kaikki data on salakirjoitettu levyllä (AES-256)
-  icon: pe-7s-wine
+  icon: pe-7s-lock
 
 # Feature
 - name: SSH-yhteydet
   description: SSH-avaimella gatewayn kautta tai web-hallintapaneelista
-  icon: pe-7s-monitor
+  icon: pe-7s-notebook
 
 # Feature
 - name: Oikeudet
   description: Jaa ja määrittele oikeuksia ympäristöihin eri käyttäjille
-  icon: pe-7s-monitor
+  icon: pe-7s-coffee
 
 # Feature
 - name: Elinkaari
   description: Jäädytä, sammuta ja käynnistä sovelluksia uudelleen
-  icon: pe-7s-crop
+  icon: pe-7s-power
 
 # Feature
 - name: DevOps
   description: Nopeasti alkuun omien DevOps-prosessien kehittämisessä
-  icon: pe-7s-camera
+  icon: pe-7s-loop
 
 # Feature
 - name: Valvonta
   description: Hälytykset kuormituksesta (RAM, CPU, verkko, IO)
-  icon: pe-7s-camera
+  icon: pe-7s-mail
 
 #####################################
 ########### Testimonials ############

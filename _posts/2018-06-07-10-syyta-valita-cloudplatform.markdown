@@ -4,8 +4,6 @@ title:  "10 syytä valita Cloudplatform"
 slug: 10-syyta-valita-cloudplatform
 tagline: Single Page
 date: 2018-06-06 13:15
-categories: [Cloudplatform]
-tags: [Pilvi]
 image: img-04.jpg
 ---
 
