@@ -14,7 +14,7 @@ url: "https://www.cloudplatform.fi"
 ####################################
 ######   Optional Features    ######
 ####################################
-smooth-scroll: false
+smooth-scroll: true
 
 ####################################
 ###########   Plugins    ###########
@@ -89,11 +89,8 @@ about-widget:
   author-tagline: Pilviarkkitehti
   author-info: Lupulla on vaatimaton 20 vuoden kokemus websovellusalustoista.
   author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
+    twitter: 'https://twitter.com/LupuPitkanen'
+    linkedin: 'https://www.linkedin.com/in/lupu-pitk%C3%A4nen-6734872/'
 
 # Google Map JS api
 # This is my api for this template

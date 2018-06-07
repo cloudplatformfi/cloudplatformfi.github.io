@@ -6,6 +6,10 @@
   <link rel="shortcut icon" href="/images/favicon.png" title="Favicon" />
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
   <!-- Importing Styles -->
   <link rel="stylesheet" href="/css/style.css">
 
