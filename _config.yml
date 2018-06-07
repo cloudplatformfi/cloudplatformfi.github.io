@@ -9,7 +9,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "package-lock.json", "G
 # the base hostname & protocol for your site
 # url: "http://localhost:4000"
 # url: "https://www.cloudplatform.fi"
-url: "https://cloudplatformfi.github.io"
+url: "https://www.cloudplatform.fi"
 
 ####################################
 ######   Optional Features    ######
@@ -38,6 +38,8 @@ headter-tagline: Cloudplatform
 # permalink: /:title:output_ext
 # permalink: pretty
 permalink: :slug/
+
+google_analytics: UA-120532186-1
 
 ####################################
 ######   CTA Header Buttons   ######
@@ -85,7 +87,7 @@ about-widget:
   author-avatar: lupu.jpg
   author-name: Lupu Pitkänen
   author-tagline: Pilviarkkitehti
-  author-info: Lupulla on 20 vuoden kokemus websovellusalustoista.
+  author-info: Lupulla on vaatimaton 20 vuoden kokemus websovellusalustoista.
   author-social-links:
     youtube: '#'
     pinterest: '#'
@@ -331,7 +333,12 @@ core-features-left:
 
 # Feature
 - name: Kuormantasaus
-  description: HTTP(S) ja TCP-kuormantasaus valmiina
+  description: HTTP(S) ja TCP-kuormantasaus heti käyttövalmiina
+  icon: pe-7s-smile
+
+# Feature
+- name: Myös IaaS-kapasiteetti
+  description: Virtuaalipalvelimet root-oikeuksilla (CentOS tai Ubuntu)
   icon: pe-7s-smile
 
 # Feature
@@ -346,7 +353,7 @@ core-features-left:
 
 # Feature
 - name: Helpot maksutavat
-  description: Osta krediittejä verkkopankkitunnuksilla tai luottokortilla
+  description: Verkkopankkitunnuksilla tai luottokortilla krediittejä
   icon: pe-7s-smile
 
 # Feature
@@ -363,6 +370,11 @@ core-features-left:
 # Core Features Right
 #
 core-features-right:
+
+# Feature
+- name: PaaS ja Docker
+  description: Valmiit PaaS-alustat tai omat Docker-imaget
+  icon: pe-7s-wine
 
 # Feature
 - name: Vikasietoisuus
@@ -390,6 +402,11 @@ core-features-right:
   icon: pe-7s-wine
 
 # Feature
+- name: SSH-yhteydet
+  description: SSH-avaimella gatewayn kautta tai web-hallintapaneelista
+  icon: pe-7s-monitor
+
+# Feature
 - name: Oikeudet
   description: Jaa ja määrittele oikeuksia ympäristöihin eri käyttäjille
   icon: pe-7s-monitor
@@ -401,12 +418,12 @@ core-features-right:
 
 # Feature
 - name: DevOps
-  description: Helppo alku DevOps-prosesseihin
+  description: Nopeasti alkuun omien DevOps-prosessien kehittämisessä
   icon: pe-7s-camera
 
 # Feature
 - name: Valvonta
-  description: Hälytykset ympäristöjen kuormituksesta (RAM, CPU, verkko, IO)
+  description: Hälytykset kuormituksesta (RAM, CPU, verkko, IO)
   icon: pe-7s-camera
 
 #####################################

@@ -13,7 +13,6 @@ layout: page
       </div>
       <div class="article-title">
         <h3 class="title">{{ page.title }}</h3>
-        <h4 class="category">{{ page.categories | first }}</h4>
       </div>
     </header>
 
@@ -24,24 +23,6 @@ layout: page
 
     <!-- Article Tool Boxes -->
     <div class="article-boxes">
-
-      <!-- Tags Box -->
-      <div class="tags-article box">
-        <span class="title">Tags:</span>
-        <ul class="tag-cloud-box box-content">
-          {% assign tags_list = page.tags %}
-            {% if tags_list.first[0] == null %}
-              {% for tag in tags_list %}
-                <li><a href="/tag/{{ tag | slugify }}">{{ tag }}</a></li>
-              {% endfor %}
-            {% else %}
-              {% for tag in tags_list %}
-                <li><a href="/tag/{{ tag[0] | slugify }}">{{ tag[0] }}</a></li>
-              {% endfor %}
-            {% endif %}
-          {% assign tags_list = nil %}
-        </ul>
-      </div>
 
       <!-- Share Article Links Box -->
       <div class="share-article box clearfix">

@@ -1,0 +1,25 @@
+---
+layout: sivu
+tagline: Cloudplatform
+title: Hinnasto
+---
+
+{% for hinta in site.data.hinnat %}
+
+<table>
+<tbody>
+<tr>
+<td>{{ hinta.ram }}</td>
+<td>{{ hinta.cpu }}</td>
+<td>{{ hinta.cloudlet }}</td>
+<td>{{ hinta.ale1 }}</td>
+<td>{{ hinta.tunti1 }}</td>
+<td>{{ hinta.kk1 }}</td>
+<td>{{ hinta.ale2 }}</td>
+<td>{{ hinta.tunti2 }}</td>
+<td>{{ hinta.kk2 }}</td>
+</tr>
+</tbody>
+</table>
+
+{% endfor %}
