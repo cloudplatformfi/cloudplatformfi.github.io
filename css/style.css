@@ -4692,6 +4692,11 @@ section.blog-section .blog-articles-container article.blog-article .article-cont
   margin: 0 0 0 100px;
 }
 
+section.blog-section .article-content p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 section.blog-section .view-posts hr.normal {
   margin: 20px auto;
 }

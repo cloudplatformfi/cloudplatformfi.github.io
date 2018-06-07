@@ -349,8 +349,8 @@ core-features-left:
   icon: pe-7s-chat
 
 # Feature
-- name: Helpot maksutavat
-  description: Verkkopankkitunnuksilla tai luottokortilla krediittejä
+- name: Maksa verkossa
+  description: Verkkopankkitunnuksilla tai maksukortilla lisää saldoa
   icon: pe-7s-calculator
 
 # Feature
@@ -410,7 +410,7 @@ core-features-right:
 
 # Feature
 - name: Elinkaari
-  description: Jäädytä, sammuta ja käynnistä sovelluksia uudelleen
+  description: Sammuta, poista ja käynnistä palveluita uudelleen
   icon: pe-7s-power
 
 # Feature
