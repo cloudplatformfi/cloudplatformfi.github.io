@@ -189,6 +189,10 @@ table {
  *
  *
  **/
+.hinnasto {
+  margin-top: 30px !important;
+}
+
 /**
  *
  *  Global Classes Style
@@ -2614,6 +2618,87 @@ table {
 
 .flaticon-youtube:before {
   content: "\f11d";
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #E7F2F6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #E7F2F6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #E7F2F6;
+}
+
+.table .table {
+  background-color: #006ED8;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #E7F2F6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #E7F2F6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table .thead-dark th {
+  color: #fff;
+  background-color: #202020;
+  border-color: #0081fe;
+}
+
+.table .thead-light th {
+  color: #e3e9ed;
+  background-color: #032D5B;
+  border-color: #E7F2F6;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #202020;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  border-color: #0081fe;
+}
+
+.table-dark.table-bordered {
+  border: 0;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
 /**

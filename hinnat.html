@@ -4,22 +4,112 @@ tagline: Cloudplatform
 title: Hinnasto
 ---
 
-{% for hinta in site.data.hinnat %}
+<!-- About Section -->
+<section class="site-section about-section next-section-indicator" id="cloudlet">
+  <div class="container">
 
-<table>
-<tbody>
-<tr>
-<td>{{ hinta.ram }}</td>
-<td>{{ hinta.cpu }}</td>
-<td>{{ hinta.cloudlet }}</td>
-<td>{{ hinta.ale1 }}</td>
-<td>{{ hinta.tunti1 }}</td>
-<td>{{ hinta.kk1 }}</td>
-<td>{{ hinta.ale2 }}</td>
-<td>{{ hinta.tunti2 }}</td>
-<td>{{ hinta.kk2 }}</td>
-</tr>
-</tbody>
-</table>
+    <!-- Section Heading -->
+    <div class="row text-center">
 
-{% endfor %}
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>Cloudlet hinnasto</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>Yksi Cloudlet sisältää 128 Mt muistia ja 400 MHz suoritintehoa.</p>
+      </div>
+
+       <!-- Cloudlet hinnat -->
+      <div class="col-md-12 section-content hinnasto">
+      <table class="table table-bordered text-right">
+        <thead class="thead-light">
+          <tr class="bg-info">
+            <th scope="col" rowspan="2">Cloudlet</th>
+            <th scope="col" rowspan="2">RAM-muisti</th>
+            <th scope="col" rowspan="2">CPU</th>
+            <th scope="col" colspan="3" class="text-center">Dynaaminen hinnoittelu</th>
+            <th scope="col" colspan="3" class="text-center">Kiinteä hinnoittelu</th>
+          </tr>
+          <tr>
+            <th scope="col">Alennus</th>
+            <th scope="col">€/h</th>
+            <th scope="col">€/kk</th>
+            <th scope="col">Alennus</th>
+            <th scope="col">€/h</th>
+            <th scope="col">€/kk</th>
+          </tr>
+        </thead>
+        <tbody>
+      {% for cloudlet in site.data.cloudlet %}
+          <tr>
+            <td>{{ cloudlet.kpl }}</td>
+            <td>{{ cloudlet.ram }}</td>
+            <td>{{ cloudlet.cpu }}</td>
+            <td>{{ cloudlet.ale1 }}</td>
+            <td>{{ cloudlet.tunti1 }}</td>
+            <td>{{ cloudlet.kk1 }}</td>
+            <td>{{ cloudlet.ale2 }}</td>
+            <td>{{ cloudlet.tunti2 }}</td>
+            <td>{{ cloudlet.kk2 }}</td>
+          </tr>
+      {% endfor %}
+        </tbody>
+      </table>
+     </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Muut hinnat -->
+<section class="site-section about-section next-section-indicator" id="cloudplatform">
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>Tallennus ja verkko</h2>
+        <hr class="normal">
+      </header>
+
+      <!-- Section Content -->
+      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
+        <p>Ei muuttuvia kustannuksia.</p>
+      </div>
+
+      <!-- Muut hinnat -->
+      <div class="col-md-12 section-content hinnasto">
+        <table class="table table-bordered text-right">
+          <thead class="thead-light">
+            <tr class="bg-info">
+              <th scope="col"class="text-left">Tuote</th>
+              <th scope="col" class="text-left">Kuvaus</th>
+              <th scope="col">Yksikkö</th>
+              <th scope="col">€/h</th>
+              <th scope="col">€/kk</th>
+            </tr>
+          </thead>
+          <tbody>
+        {% for hinta in site.data.hinnasto %}
+            <tr>
+              <td class="text-left">{{ hinta.tuote }}</td>
+              <td class="text-left">{{ hinta.kuvaus }}</td>
+              <td>{{ hinta.yksikko }}</td>
+              <td>{{ hinta.tunti }}</td>
+              <td>{{ hinta.kk }}</td>
+            </tr>
+        {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+</section>
