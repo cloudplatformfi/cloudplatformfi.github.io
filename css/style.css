@@ -194,15 +194,6 @@ table {
   margin-bottom: 20px !important;
 }
 
-.article-content ul {
-  list-style-type: circle;
-  margin-left: 15px;
-}
-
-.article-content ul li {
-  margin: 8px;
-}
-
 /**
  *
  *  Global Classes Style
@@ -4688,6 +4679,15 @@ section.blog-section .blog-articles-container article.blog-article .article-cont
   line-height: 1.4;
 }
 
+section.blog-section .blog-articles-container article.blog-article .article-content .article-text ul {
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-text li {
+  margin: 8px;
+}
+
 section.blog-section .blog-articles-container article.blog-article .article-content .show-more {
   display: block;
   width: 100%;
@@ -4704,6 +4704,15 @@ section.blog-section .blog-articles-container article.blog-article .article-cont
 section.blog-section .article-content p {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+section.blog-section .article-content ul {
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+section.blog-section .article-content li {
+  margin: 8px;
 }
 
 section.blog-section .view-posts hr.normal {
