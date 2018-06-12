@@ -4,7 +4,7 @@ title:  "10 syytä valita Cloudplatform"
 slug: 10-syyta-valita-cloudplatform
 tagline: Single Page
 date: 2018-06-06 13:15
-image: cloudplatform_blog.jpg
+image: planeetta_cloudplatform.jpg
 ---
 
 Kun kehittäjä miettii mihin sovellus tai sivusto kannattaisi laittaa ajoon, vaihtoehtoja riittää runsaudenpulaksi asti. Miksi valita juuri Cloudplatform lukuisten eri pilvipalvelujen joukosta?
