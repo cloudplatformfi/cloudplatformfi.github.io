@@ -9,9 +9,7 @@ image: helsinki_ssd_migration.gif
 
 Jos olet perustanut Cloudplatformiin ympäristön 12.6.2018 tai aiemmin, se on perustettu oletuksena Helsinki (HDD) -regionille. Uusi tehokkaampi Helsinki (SSD) -region on tästä päivästä alkaen oletusarvoinen uusille ympäristöille.
 
-Voit siirtää vanhat ympäristöt helposti itse Helsinki (SSD) -regionille [dashboardista](https://app.fi.cloudplatform.fi/){:target="_blank"}. Asetukset, IP-osoitteet, tunnukset, salasanat, sovellukset ja data pysyvät siirrossa ennallaan - vain tehoa tulee lisää.
-
-Katso ohjevideo yltä tai toimi seuraavasti:
+Voit siirtää vanhat ympäristöt helposti itse Helsinki (SSD) -regionille [dashboardista](https://app.fi.cloudplatform.fi/){:target="_blank"}. Asetukset, IP-osoitteet, tunnukset, salasanat, sovellukset ja data pysyvät siirrossa ennallaan - vain tehoa tulee lisää. Katso ohjevideo yltä tai toimi seuraavasti:
 - HUOM: Siirron yhteydessä ympäristön palvelimet käynnistetään uudelleen, joten varaudu sovelluksen käyttökatkoon
 - [Kirjaudu Cloudplatform dashboardiin](https://app.fi.cloudplatform.fi/){:target="_blank"}
 - Valitse Settings haluamasi ympäristön kohdalla
