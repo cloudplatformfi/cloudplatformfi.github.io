@@ -93,31 +93,31 @@ Käytämme evästeitä verkkosivuillamme, jotta voisimme tarjota parhaan mahdoll
 
 ## Millaisia oikeuksia ja vaikutusmahdollisuuksia minulla on?
 
-### Suostumuksen peruuttaminen  
+### Suostumuksen peruuttaminen
 
 Mikäli käsittelemme tietojasi suostumuksesi perusteella, voit milloin tahansa peruuttaa suostumuksen ilmoittamalla siitä meille, esimerkiksi lähettämällä sähköpostia osoitteeseen info@planeetta.fi.
 
-### Pääsy tietoihin  
+### Pääsy tietoihin
 
 Sinulla on oikeus saada meiltä vahvistus siitä, käsittelemmekö sinua koskevia henkilötietoja sekä saada tietää mitä sinua koskevia henkilötietoja käsittelemme. Lisäksi sinulla on oikeus saada täydentäviä tietoja henkilötietojesi käsittelyn perusteista.
 
-### Oikeus saada virheet korjatuksi  
+### Oikeus saada virheet korjatuksi
 
 Sinulla on oikeus pyytää, että korjaamme sinua koskevat virheelliset tai vanhentuneet taikka muuten puutteelliset henkilötiedot.
 
-### Oikeus kieltää suoramarkkinointi  
+### Oikeus kieltää suoramarkkinointi
 
 Voit kieltää henkilötietojesi käsittelyn suoramarkkinointitarkoituksia varten lähettämällä sähköpostia osoitteeseen info@planeetta.fi.
 
-### Oikeus vastustaa käsittelyä  
+### Oikeus vastustaa käsittelyä
 
 Mikäli käsittelemme henkilötietojasi yleisen edun taikka oikeutetun etumme perusteella, sinulla on oikeus vastustaa sinua koskevien henkilötietojen käsittelyä siltä osin, kuin käsittelylle ei ole olemassa sellaista huomattavaa syytä, joka syrjäyttäisi sinun oikeutesi taikka käsittely ei ole tarpeen oikeudellisen vaateen hoitamiseksi. Huomaathan, että tässä tilanteessa emme todennäköisesti pysty palvelemaan enää sinua.
 
-### Oikeus rajoittaa käsittelyä  
+### Oikeus rajoittaa käsittelyä
 
 Sinulla on tietyissä tilanteissa oikeus vaatia, että rajoitamme henkilötietojesi käsittelyä.
 
-### Oikeus saada tiedot siirretyksi  
+### Oikeus saada tiedot siirretyksi
 
 Mikäli olemme käsitelleet tietojasi suostumuksesi perusteella tai sopimuksen täyttämiseksi, sinulla on oikeus saada meille sähköisesti toimittamasi tiedot yleisesti käytetyssä muodossa, jotta tiedot voitaisiin siirtää toiselle palveluntarjoajalle.
 
@@ -133,14 +133,14 @@ Saatamme tehdä päivityksiä tähän tietosuojaselosteeseen toimintamme taikka 
 
 ### Yhteystiedot:
 
-Planeetta Internet Oy  
-Y-tunnus: 1753494-9  
-Mannerheimintie 105  
+Planeetta Internet Oy
+Y-tunnus: 1753494-9
+Mannerheimintie 105
 00280 Helsinki
 
-puh. 010 5251 440  
+puh. 010 5251 440
 e-mail info@planeetta.fi
 
-Vastaava henkilö  
-toimitusjohtaja Lauri Kasti  
+Vastaava henkilö
+toimitusjohtaja Lauri Kasti
 puh. 010 5251 458
