@@ -2,7 +2,7 @@
 layout: post
 title:  "Näin siirryt Helsinki (SSD) -regioniin"
 slug: helsinki-ssd-migraatio
-tagline: Single Page
+tagline: Cloudplatform blogi
 date: 2018-06-12 14:30
 image: helsinki_ssd_migration.gif
 ---

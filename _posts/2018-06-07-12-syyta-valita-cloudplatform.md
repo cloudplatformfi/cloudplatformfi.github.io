@@ -2,7 +2,7 @@
 layout: post
 title:  "10 syytä valita Cloudplatform"
 slug: 10-syyta-valita-cloudplatform
-tagline: Single Page
+tagline: Cloudplatform blogi
 date: 2018-06-06 13:15
 image: planeetta_cloudplatform.jpg
 ---
