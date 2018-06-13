@@ -3,7 +3,7 @@ layout: post
 title:  "Planeetta Jelastic on nyt Cloudplatform"
 slug: planeetta-jelastic-on-nyt-cloudplatform
 tagline: Cloudplatform blogi
-date: 2018-06-12 16:30
+date: 2018-06-13 11:00
 image: cloudplatform_blog.jpg
 ---
 
