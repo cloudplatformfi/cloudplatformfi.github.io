@@ -71,8 +71,8 @@ banner-link: https://app.fi.cloudplatform.fi/?lang=fi&signup=true
 ####################################
 youtube: '#'
 pinterest: '#'
-facebook: '#'
-twitter: '#'
+facebook: 'https://www.facebook.com/cloudplatformfi'
+twitter: 'https://twitter.com/cloudplatformfi'
 google-plus: '#'
 vimeo: '#'
 
@@ -157,145 +157,159 @@ portfolio-description: Cloudplatform on käyttövalmis PaaS-pilvipalvelu suositu
 #
 # Portfolio Grid
 #
-portfolio-categories: [Ohjelmointikieli, Sovellusalusta, Tietokanta]
+portfolio-categories: [Ohjelmointikieli, Sovellusalusta, Tietokanta, Julkaisujärjestelmä]
 portfolio:
 
 # Portfolio Item
 - title: Java
   categories: [Ohjelmointikieli]
   image: java.png
-  url: 'https://www.java.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: PHP
   categories: [Ohjelmointikieli]
   image: php.png
-  url: 'http://php.net/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Docker
   categories: [Sovellusalusta]
   image: docker.png
-  url: 'https://www.docker.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Node.js
   categories: [Ohjelmointikieli, Sovellusalusta]
   image: nodejs.png
-  url: 'https://nodejs.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Ruby
   categories: [Ohjelmointikieli]
   image: ruby.png
-  url: 'https://www.ruby-lang.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Python
   categories: [Ohjelmointikieli]
   image: python.png
-  url: 'https://www.python.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Go
   categories: [Ohjelmointikieli]
   image: golang.png
-  url: 'https://golang.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Tomcat
   categories: [Sovellusalusta]
   image: tomcat.png
-  url: 'http://tomcat.apache.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: TomEE
   categories: [Sovellusalusta]
   image: tomee.png
-  url: 'http://tomee.apache.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: GlassFish
   categories: [Sovellusalusta]
   image: glassfish.png
-  url: 'https://javaee.github.io/glassfish/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Jetty
   categories: [Sovellusalusta]
   image: jetty.png
-  url: 'https://www.eclipse.org/jetty/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Apache
   categories: [Sovellusalusta]
   image: apache.png
-  url: 'https://httpd.apache.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: NGINX
   categories: [Sovellusalusta]
   image: nginx.png
-  url: 'https://nginx.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: JBoss
   categories: [Sovellusalusta]
   image: jboss.png
-  url: 'http://www.jboss.org/'
-
-- title: WildFly
-  categories: [Sovellusalusta]
-  image: wildfly.png
-  url: 'http://wildfly.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: WebLogic Server
   categories: [Sovellusalusta]
   image: weblogic.png
-  url: 'http://www.oracle.com/technetwork/middleware/weblogic/overview/index.html'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: MariaDB
   categories: [Tietokanta]
   image: mariadb.png
-  url: 'https://mariadb.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: MySQL
   categories: [Tietokanta]
   image: mysql.png
-  url: 'https://www.mysql.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: MongoDB
   categories: [Tietokanta]
   image: mongodb.png
-  url: 'https://www.mongodb.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: PostgreSQL
   categories: [Tietokanta]
   image: postgresql.png
-  url: 'https://www.postgresql.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: CouchDB
   categories: [Tietokanta]
   image: couchdb.png
-  url: 'http://couchdb.apache.org/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Cassandra
   categories: [Tietokanta]
   image: cassandra.png
-  url: 'http://cassandra.apache.org/'
-
-- title: OrientDB
-  categories: [Tietokanta]
-  image: orientdb.png
-  url: 'https://orientdb.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Redis
   categories: [Tietokanta]
   image: redis.png
-  url: 'https://redis.io/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: Neo4j
   categories: [Tietokanta]
   image: neo4j.png
-  url: 'https://neo4j.com/'
-
-- title: Oracle DB
-  categories: [Tietokanta]
-  image: oracle.png
-  url: 'https://www.oracle.com/database/index.html'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
 - title: PerconaDB
   categories: [Tietokanta]
   image: percona.png
-  url: 'https://www.percona.com/'
+  url: 'https://app.fi.cloudplatform.fi/?lang=fi&signup=true'
 
+- title: Wordpress
+  categories: [Julkaisujärjestelmä]
+  image: Wordpress.png
+  url: 'https://app.fi.cloudplatform.fi/?app=wordpress'
+
+- title: Drupal
+  categories: [Julkaisujärjestelmä]
+  image: drupal.png
+  url: 'https://app.fi.cloudplatform.fi/?app=drupal'
+
+- title: Joomla
+  categories: [Julkaisujärjestelmä]
+  image: joomla.png
+  url: 'https://app.fi.cloudplatform.fi/?app=joomla'
+
+- title: Magento
+  categories: [Julkaisujärjestelmä]
+  image: magento.png
+  url: 'https://app.fi.cloudplatform.fi/?app=magento'
+
+- title: Owncloud
+  categories: [Julkaisujärjestelmä]
+  image: owncloud.png
+  url: 'https://app.fi.cloudplatform.fi/?app=owncloud'
+
+- title: Liferay
+  categories: [Julkaisujärjestelmä]
+  image: liferay.png
+  url: 'https://app.fi.cloudplatform.fi/?app=liferay'
 
 #####################################
 ##########  Core Features  ##########
