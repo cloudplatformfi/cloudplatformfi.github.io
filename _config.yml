@@ -39,6 +39,7 @@ headter-tagline: Cloudplatform
 # permalink: pretty
 permalink: :slug/
 
+# Google Analytics
 google_analytics: UA-120532186-1
 
 ####################################
