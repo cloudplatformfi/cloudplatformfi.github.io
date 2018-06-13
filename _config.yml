@@ -283,7 +283,7 @@ portfolio:
 
 - title: Wordpress
   categories: [Julkaisujärjestelmä]
-  image: Wordpress.png
+  image: wordpress.png
   url: 'https://app.fi.cloudplatform.fi/?app=wordpress'
 
 - title: Drupal
@@ -301,12 +301,12 @@ portfolio:
   image: magento.png
   url: 'https://app.fi.cloudplatform.fi/?app=magento'
 
-- title: Owncloud
+- title: OwnCloud
   categories: [Julkaisujärjestelmä]
   image: owncloud.png
   url: 'https://app.fi.cloudplatform.fi/?app=owncloud'
 
-- title: Liferay
+- title: Liferay Portal
   categories: [Julkaisujärjestelmä]
   image: liferay.png
   url: 'https://app.fi.cloudplatform.fi/?app=liferay'
