@@ -4106,7 +4106,7 @@ section.portfolio-section .portfolio-grid .item .img-wrap img {
 }
 
 section.portfolio-section .portfolio-grid .item.visible {
-  opacity: 0;
+  opacity: 0.5;
   -webkit-transform: scale(1) translateX(12%);
       -ms-transform: scale(1) translateX(12%);
           transform: scale(1) translateX(12%);
