@@ -457,6 +457,13 @@ testimonials:
   cite: Cloudplatformista saamme joustavasti palvelinkapasiteettia käyttöön tarpeen mukaan. Arvostamme kotimaisen palvelun lisäksi erityisesti reaaliaikaista skaalautumista, missä maksamme kapasiteetista vain todellisen käytön mukaan.
   logo-img: foredata.png
 
+# Client
+- name: Jarkko Linnavirta, 
+  url: http://www.ahkera.fi/
+  url-text: www.ahkera.fi
+  avatar: ahkera_jarkko.jpg
+  cite: Cloudplatform on tuonut meille mahdollisuuden perustaa Linux-pohjaisia palvelinympäristöjämme juuri silloin kuin tämä on tarpeellista, sekä sulkea silloin jos tarve on lakannut - ilman irtisanomisaikaa. Ympäristöjen hallittavuus, kotimainen palvelu sekä valmiit php- ja node.js-ympäristöt ovat auttaneet meitä keskittymään enemmän ohjelmointiin, kun palvelinten pystytykseen ei mene niin paljon aikaa. Arvostamme myös, että saamme tarvittaessa tuttujen asiantuntijoiden apua.
+  logo-img: ahkera.png
 
 #####################################
 ############# Our Blog ##############
