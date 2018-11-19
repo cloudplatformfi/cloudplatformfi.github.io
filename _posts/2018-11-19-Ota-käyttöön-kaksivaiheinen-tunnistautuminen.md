@@ -13,6 +13,6 @@ Jelastic-tilille tapahtuu kahdessa vaiheessa, joka  edellyttää tietämääsi a
 puhelinta, jossa  on  käytöössä  Google Authenticator -mobiilisovellus. 
 Google Authenticator saat ladattua mobiililaitteesi sovelluskaupasta eikä siitä tai sen käyttämisestä veloita erikseen.
 
-Siirry ohjeisiin ja suojaa tilisi:
+Klikkaa tästä [ohjeisiin] (https://docs.jelastic.com/two-factor-authentication) {:target="_blank"} ja suojaa tilisi:
 
-https://docs.jelastic.com/two-factor-authentication{:target="_blank"}
+
