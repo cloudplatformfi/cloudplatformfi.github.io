@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ota käyttöön kaksivaiheinen tunnistautuminen"
-slug: Ota-käyttöön-kaksivaiheinen-tunnistautuminen
+slug: kaksivaiheinen-tunnistautuminen
 tagline: Cloudplatform blogi
 date: 2018-11-19 09:00
 image: cloudplatform_blog.jpg
