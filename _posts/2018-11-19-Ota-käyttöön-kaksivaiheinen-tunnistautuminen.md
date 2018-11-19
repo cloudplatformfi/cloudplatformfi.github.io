@@ -8,9 +8,7 @@ image: cloudplatform_blog.jpg
 ---
 
 
-Kaksivaiheinen tunnistautuminen (two-factor authentication) parantaa Jelastic-tilisi tietoturvaa. Sen käyttöön ottaminen 
-Jelastic-tilille tapahtuu kahdessa vaiheessa, joka  edellyttää tietämääsi asiaa (salasanaa) sekä sinulla olevaa asiaa 
-puhelinta, jossa  on  käytöössä  Google Authenticator -mobiilisovellus. 
+Kaksivaiheinen tunnistautuminen (two-factor authentication) parantaa Jelastic-tilisi tietoturvaa. Käyttöön ottamista varten tarvitset Jelasticin käyttäjätunnuksen ja salasanan sekä Google Authenticator -mobiilisovelluksen. 
 
 Google Authenticator -sovelluksen saat ladattua mobiililaitteeseesi sovelluskaupasta eikä siitä tai sen käyttämisestä veloita erikseen.
 
