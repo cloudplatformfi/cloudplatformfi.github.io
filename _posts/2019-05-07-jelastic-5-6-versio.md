@@ -7,7 +7,7 @@ date: 2019-05-07 06:00
 image: cloudplatform_blog.jpg
 ---
 
-Cloudplatform -alustalla on ylimääräinen huoltokatko tiistaina 7.5.2019  kello 21.00 alkaen.. Huoltokatkon aikana alusta päivitetään Jelasticin uusimpaan [5.6 versioon](https://docs.jelastic.com/release-notes-564){:target="_blank"}.
+Cloudplatform -alustalla on ylimääräinen huoltokatko tiistaina 7.5.2019 kello 21.00 alkaen. Huoltokatkon aikana alusta päivitetään Jelasticin uusimpaan [5.6 versioon](https://docs.jelastic.com/release-notes-564){:target="_blank"}.
 
 Huoltoikkuna kestää arviolta noin kymmenen tuntia. Tänä aikana hallintapaneeli ja SSH-gateway eivät ole käytössä, eikä muutosten tekeminen ympäristöihin ole mahdollista. Huoltoikkuna ei vaikuta asiakkaidemme ympäristöjen toimintaan, joten sovellukset toimivat huoltoikkunan aikana normaalisti.
 
