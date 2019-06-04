@@ -488,10 +488,6 @@ team:
   tagline: Sovellusasiantuntija
   avatar: ville.jpg
 
-# Team Member
-- name: Kim
-  tagline: Sovellusasiantuntija
-  avatar: kim.jpg
 
 # Team Member
 - name: Jouni
@@ -554,4 +550,4 @@ contact-description: Tarvitsetko vielä lisätietoja tai haluatko keskustella mi
 footer-description: Cloudplatform on osa Planeettaa. Vuonna 2002 perustettu Planeetta on Suomen suurin itsenäinen webhostingia tarjoava yritys. Sillä on kymmeniä tuhansia asiakkaita ja verkkotunnuksia ylläpidossaan.
 footer-copyright-text: Planeetta Internet Oy
 footer-copyright-url: https://www.planeetta.fi/
-footer-copyright-year: 2018
+footer-copyright-year: 2019
