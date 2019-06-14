@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Helsinki (HDD) -region sulkeutuu heinäkuussa 2019"
+title: "Helsinki (HDD) -region sulkeutuu heinäkuussa"
 slug: helsinki-hdd-regionin-sulkeminen
 tagline: Cloudplatform blogi
 date: 2019-06-14 09:30
