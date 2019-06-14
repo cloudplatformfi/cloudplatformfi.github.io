@@ -22,4 +22,4 @@ Voit siirtää vanhat ympäristöt helposti itse Helsinki (SSD) -regionille [das
 
 Jos siirrossa ilmenee ongelmia, [ota yhteyttä](https://support.cloudplatform.fi/fi/new-ticket){:target="_blank"}.
 
-Voit myös odottaa syksyyn, jolloin siirrämme kaikki ympäristöt uudelle alustalle asiakkaidemme puolesta huoltokatkossa. Tiedotamme tästä vielä erikseen lähempänä. Helsinki (HDD) -region toimii vielä normaalisti siihen asti, eikä yksikään asiakkaamme jää siis tyhjän päälle.
+Voit myös odottaa heinäkuun 2019 ensimmäiselle viikolle, jolloin siirrämme kaikki ympäristöt uudelle alustalle asiakkaidemme puolesta huoltokatkossa. Tiedotamme tästä vielä erikseen lähempänä. Helsinki (HDD) -region toimii vielä normaalisti siihen asti, eikä yksikään asiakkaamme jää siis tyhjän päälle.
