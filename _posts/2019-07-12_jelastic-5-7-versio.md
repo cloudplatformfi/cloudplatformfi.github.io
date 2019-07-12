@@ -3,7 +3,7 @@ layout: post
 title:  "Jelastic 5.7 versiopäivitys"
 slug: jelastic-5-7-versio
 tagline: Cloudplatform blogi
-date: 2019-07-12 06:00
+date: 2019-07-11 23:00
 image: cloudplatform_blog.jpg
 ---
 
