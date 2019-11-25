@@ -15,7 +15,7 @@ Mikäli palvelussanne ilmenee ongelmia päivityksen jälkeen, pyydämme teitä t
 
 ---
 
-There will be maintenance break for Cloudplatform on Tuesday 3rd of December 2019 starting at 9 PM (EEST). Our platform will be updated to the latest [5.7.8 version](https://docs.jelastic.com/ja/release-notes-578){:target="_blank"}.
+There will be maintenance break for Cloudplatform on Tuesday 3rd of December 2019 starting at 9 PM (EET). Our platform will be updated to the latest [5.7.8 version](https://docs.jelastic.com/ja/release-notes-578){:target="_blank"}.
 
 The maintenance window takes approximately 10 hours. During the windows the control panel and SSH gateway are not available and it's not possible to make any changes to your environments. The maintenance windows do not affect the operations of the your environment so customer applications should function normally during the maintenance.
 
