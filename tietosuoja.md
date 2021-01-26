@@ -142,5 +142,5 @@ puh. 010 5251 440
 e-mail info@planeetta.fi
 
 Vastaava henkilö
-toimitusjohtaja Lauri Kasti
-puh. 010 5251 458
+tietosuojavastaava Heidi Eronen
+puh. 010 5251 440
