@@ -85,13 +85,12 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: lupu.jpg
-  author-name: Lupu Pitkänen
-  author-tagline: Pilviarkkitehti
-  author-info: Lupulla on vaatimaton 20 vuoden kokemus websovellusalustoista.
+  author-avatar: /logo.png
+  author-name: Cloudplatform
+  author-tagline: Cloudplatform
   author-social-links:
-    twitter: 'https://twitter.com/LupuPitkanen'
-    linkedin: 'https://www.linkedin.com/in/lupu-pitk%C3%A4nen-6734872/'
+    facebook: 'https://www.facebook.com/cloudplatformfi'
+   
 
 # Google Map JS api
 # This is my api for this template
