@@ -494,11 +494,6 @@ team:
   tagline: Sovellusasiantuntija
   avatar: jouni.jpg
 
-# Team Member
-- name: Lupu
-  tagline: Pilviarkkitehti
-  avatar: lupu.jpg
-
 
 #####################################
 ########## Pricing Tables ###########
@@ -550,4 +545,4 @@ contact-description: Tarvitsetko vielä lisätietoja tai haluatko keskustella mi
 footer-description: Cloudplatform on osa Planeettaa. Vuonna 2002 perustettu Planeetta on Suomen suurin itsenäinen webhostingia tarjoava yritys. Sillä on kymmeniä tuhansia asiakkaita ja verkkotunnuksia ylläpidossaan.
 footer-copyright-text: Planeetta Internet Oy
 footer-copyright-url: https://www.planeetta.fi/
-footer-copyright-year: 2019
+footer-copyright-year: 2021
