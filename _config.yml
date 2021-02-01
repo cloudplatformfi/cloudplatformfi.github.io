@@ -85,7 +85,7 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: /images/logo-focus.png
+  author-avatar: cloudplatform.png
   author-name: cloud
   author-tagline: Cloudplatform
   author-social-links:
