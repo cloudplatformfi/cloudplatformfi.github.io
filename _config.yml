@@ -85,20 +85,13 @@ vimeo: '#'
 # About Blog Author Widget
 #
 about-widget:
-  author-avatar: images/logo-focus.png
-  author-name: Cloudplatform
+  author-avatar: /images/logo-focus.png
+  author-name: cloud
   author-tagline: Cloudplatform
   author-social-links:
     facebook: 'https://www.facebook.com/cloudplatformfi'
    
 
-# Google Map JS api
-# This is my api for this template
-#key-api: AIzaSyDVQ7-TG4AAPGN_uRhbkolhnrokRaN4bPA
-#map-text: Cloudplatform / Planeetta
-#map-text-location: Helsinki, Finland
-#map-lat: 60.2043741
-#map-lng: 24.899685099999942
 
 # Enter your Mailchimp User ID and Campaign ID
 # @TODO: Add in a link for where to find these
