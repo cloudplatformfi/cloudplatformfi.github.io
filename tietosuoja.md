@@ -142,5 +142,5 @@ puh. 010 5251 440
 e-mail info@planeetta.fi
 
 Vastaava henkilö
-tietosuojavastaava Heidi Eronen
+tietosuojavastaava Salla Vainionpää
 puh. 010 5251 440
